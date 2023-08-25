@@ -12,5 +12,6 @@ export async function login (username = "", password = "") {
             password
         })
     })
+    console.log("Perros y centellas");
     return await result.json()
 }
